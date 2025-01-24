@@ -12,8 +12,8 @@ header {
   border-radius: 50%;
   padding: 10px;
  img{
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
  }
 }
 .chat-icon{
@@ -25,8 +25,8 @@ header {
   border-radius: 50%;
   padding: 10px;
  img{
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
  }
 }
 
@@ -362,13 +362,13 @@ h2 {
   img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 }
 .head-input {
   width: 100%;
-  text-align: center;
-  padding: 20px 20px;
-
+  text-align: center; 
+ 
   input {
     padding: 20px;
     outline: none;
@@ -377,7 +377,7 @@ h2 {
   }
   h2 {
     padding: 0;
-    font-size: 55px;
+    font-size: 30px;
     text-align: left;
   }
   .txt-credit {
@@ -386,10 +386,10 @@ h2 {
     font-weight: 600;
   }
   .check-p {
-    font-size: 20px;
-    text-align: justify;
+    font-size: 20px; 
+    text-align: start;
     input[type="checkbox"] {
-      transform: scale(2);
+      transform: scale(1.5);
     }
   }
   input[type="button"] {
@@ -1207,6 +1207,41 @@ footer {
       }
     }
   }
+  .head-input {
+    width: 100%;
+    text-align: center; 
+   
+    input {
+      padding: 20px;
+      outline: none;
+      border: 3px solid #d0d0d0;
+      border-radius: 10px;
+    }
+    h2 {
+      padding: 0;
+      font-size: 30px;
+      text-align: left;
+    }
+    .txt-credit {
+      text-align: left;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .check-p {
+      font-size: 20px; 
+      text-align: start;
+      input[type="checkbox"] {
+        transform: scale(1.5);
+      }
+    }
+    input[type="button"] {
+      border: none;
+      color: #fff;
+      font-size: 25px;
+      font-weight: 700;
+      border-radius: 10px;
+    }
+  }
 
   /*          Calculator          */
   #calculator {
@@ -1450,5 +1485,32 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .per-icon{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999999999;
+    background-color: #064fcd;
+    border-radius: 50%;
+    padding: 10px;
+   img{
+    width: 70px;
+    height: 70px;
+   }
+  }
+  .chat-icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999999;
+    background-color: #064fcd;
+    border-radius: 50%;
+    padding: 10px;
+   img{
+    width: 70px;
+    height: 70px;
+   }
   }
 }
