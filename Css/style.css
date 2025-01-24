@@ -1359,8 +1359,8 @@ footer {
   }
   .blue-card {
     flex-direction: row;
-    max-width: 750px;
-    height: auto;
+    max-width: 49%;
+    height: 350px;
   }
 
   .txt-card {
