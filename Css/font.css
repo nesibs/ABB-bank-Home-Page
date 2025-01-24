@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Black.woff2') format('truetype');
+}
+@font-face {
+    font-family: 'SF Pro Displa Italic ';
+    src: url('../fonts/SFProDisplay-Black.woff2') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url('../fonts/SFProDisplay-Bold.woff2') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Pro Display Heavy';
+    src: url('../fonts/SFProDisplay-Heavy.woff2') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Pro Display Light';
+    src: url('../fonts/SFProDisplay-Light.woff2') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: url('../fonts/SFProDisplay-Medium.woff2') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Pro Display Medium Italic';
+    src: url('../fonts/SFProDisplay-MediumItalic.woff2') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url('../fonts/SFProDisplay-Regular.woff2') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+}
